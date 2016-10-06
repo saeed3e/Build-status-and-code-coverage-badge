@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage lines-valid="85"  lines-covered="20"  line-rate="0.2353"  branches-valid="306"  branches-covered="97"  branch-rate="0.317"  timestamp="1475750180309" complexity="0" version="0.1">
+<coverage lines-valid="85"  lines-covered="20"  line-rate="0.2353"  branches-valid="306"  branches-covered="97"  branch-rate="0.317"  timestamp="1475751492190" complexity="0" version="0.1">
 <sources>
 	<source>C:\wamp64\www\Dropbox\git\saeed3e_git_live\Build-status-and-code-coverage-badge</source>
 </sources>
