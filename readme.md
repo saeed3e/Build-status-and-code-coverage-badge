@@ -11,7 +11,7 @@ to show project build status(success/fail) by [travic](https://travis-ci.org/) b
 ![picture](https://saeed3e.github.io/Build-status-and-code-coverage-badge/switch.png) 
 
 #### Step3: Click on *DETAILS* button(as shown in above image) and it will land you on another page with URL like:
-https://coveralls.io/github/saeed3e/Build-status-and-code-coverage-badge and 
+https://coveralls.io/github/saeed3e/Build-status-and-code-coverage-badge, now
 get your repo token and put this token in your coveralls.yml file.
 
 
