@@ -10,7 +10,7 @@ to show project build status(success/fail) by [travic](https://travis-ci.org/) b
 ### Step1: login to [coveralls](https://coveralls.io/) account with your github credential and authorize coveralls to access your github repositories.
 
 ### Step2: Go to "APP REPOS" section and enable the repo(by on/off switch button) as shown in images, for which you want to show test coverage.
-![picture](https://saeed3e.github.io/travis-build-badge/switch.png) 
+![picture](https://saeed3e.github.io/Build-status-and-code-coverage-badge/switch.png) 
 
 ### Step3: Click on *DETAILS* button(as shown in above image) and it will land you on another page with url like:
 https://coveralls.io/github/saeed3e/Build-status-and-code-coverage-badge and 
