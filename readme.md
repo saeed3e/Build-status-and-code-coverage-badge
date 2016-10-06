@@ -23,6 +23,7 @@ repo_token: Dt5SvlLV8sg53YxsbmldfU51ETsdvVHqv
 
 #### Step5: install node(npm) packages
 ```
+npm install grunt grunt-contrib-jasmine grunt-contrib-nodeunit jasmine --save-dev
 npm install grunt-template-jasmine-istanbul --save-dev
 npm install grunt-coveralls --save-dev
 ```
