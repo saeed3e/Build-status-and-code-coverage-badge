@@ -2,6 +2,7 @@ module.exports = function(grunt) {
 
     // Project configuration.
     grunt.initConfig({
+        
         jasmine: {
             coverage: {
                 src: 'src/**/*.js',
@@ -11,7 +12,7 @@ module.exports = function(grunt) {
                     templateOptions: {
                         coverage: 'src/coverage/coverage.json',
                         report: {
-                            type: 'lcov',   // valid types : cobertura, lcov
+                            type: 'cobertura',   // valid types : cobertura, lcov
                             options: {
                                 dir: 'src/coverage'
                             }
@@ -40,9 +41,11 @@ module.exports = function(grunt) {
             },
         },
     });
+
+    //grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-jasmine');
 
     grunt.registerTask('test', ['jasmine']);
-    grunt.registerTask('default', ['test']);
+    grunt.registerTask('default', ['uglify','test']);
 
 };
